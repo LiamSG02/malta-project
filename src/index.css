@@ -7,3 +7,13 @@
   list-style: none;
   text-decoration: none;
 }
+
+:root {
+  --color-primary: #B3FFFF;
+  --color-secondary: #FCFCD4;
+  --color-button: #00AAB0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
