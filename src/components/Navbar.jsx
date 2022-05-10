@@ -1,12 +1,17 @@
 import React from "react";
 import './navbar.css'
+import Malta from '../images/Malta.jpg'
 
 
 export const Navbar = () => {
     return (
 
-    <nav class="nav collapsible">
-        <a class="nav__logo" href="/"><img src="images/Malta.jpg" alt=""/></a>
+    <nav class="nav">
+        <div>
+            <a href="#">
+                <img src={Malta} alt="Logo" />
+            </a>
+        </div>
     </nav>
     
     )

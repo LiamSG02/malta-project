@@ -12,8 +12,37 @@
   --color-primary: #B3FFFF;
   --color-secondary: #FCFCD4;
   --color-button: #00AAB0;
+  --color-headings: #1b0760;
+  --color-border: #ccc;
+  --color-body: #FCFCD4;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-body);
+}
+
+/* Blocks */
+.block {
+  --padding-vertical: 60px;
+  padding: var(--padding-vertical) 20px;
+  background: var(--color-secondary);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  
+}
+
+/* Domain Block */
+.block-domain .input-group {
+  box-shadow: 0 0 30px 20px #e6ebee;
+  border: 0;
+  margin: 40px auto;
+  max-width: 670px;
+  background: #fff;
 }
