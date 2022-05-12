@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Navbar from './components/Navbar'
 import Header from './components/Header'
+import Button from './components/Button'  
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css'; 
 import './components/calendar2.css'
@@ -15,7 +16,8 @@ export const App = () => {
   return (
     <>
         <Navbar />
-        <Calendar onChange={onChange} value={date} />
+        <Header />
+        
     </>
   )
 }
