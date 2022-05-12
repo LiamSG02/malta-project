@@ -14,8 +14,9 @@
   --color-button: #00AAB0;
   --color-headings: #1b0760;
   --color-border: #ccc;
-  --color-body: #FCFCD4;
+  --color-body: #ededed;
 }
+
 
 html {
   scroll-behavior: smooth;
@@ -23,13 +24,36 @@ html {
 
 body {
   background-color: var(--color-body);
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--color-headings);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-headings);
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  margin-top: 0;
 }
 
 /* Blocks */
 .block {
   --padding-vertical: 60px;
   padding: var(--padding-vertical) 20px;
-  background: var(--color-secondary);
+}
+
+.block__header {
+  text-align: center;
+  margin-bottom: 4rem;
 }
 
 .container {

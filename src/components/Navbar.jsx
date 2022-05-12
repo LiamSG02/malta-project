@@ -1,6 +1,6 @@
 import React from "react";
 import './navbar.css'
-import Malta from '../images/Malta.jpg'
+import Malta from '../images/Logo.svg'
 
 
 export const Navbar = () => {
