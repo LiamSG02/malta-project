@@ -4,7 +4,7 @@ import './button.css'
 
 export const Button = () => {
     return (
-        <button class="btn btn--color">Next </button>
+        <button class="btn btn--color">Confirm </button>
     )
   }
 

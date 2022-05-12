@@ -3,14 +3,14 @@
     margin-top: 50px;
 }
 
-@media screen and (max-width: 769px) {
-    .react-calendar {
-        justify-content: center;
+@media screen and (max-width: 1024px) {
+    .btn {
+        margin-left: 42.5%;
     }
   }
 
   @media screen and (max-width: 426px) {
-    .react-calendar {
-        margin-left: 0;
+    .btn {
+        margin-left: 40%;
     }
   }

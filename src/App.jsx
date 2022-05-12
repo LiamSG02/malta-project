@@ -5,6 +5,8 @@ import Button from './components/Button'
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css'; 
 import './components/calendar2.css'
+import { MuiCheckbox } from './components/MuiCheckbox';
+import CalendarHeader from './components/CalendarHeader';
 
 export const App = () => {
   const [date, setDate] = useState(new Date());
@@ -17,6 +19,10 @@ export const App = () => {
     <>
         <Navbar />
         <Header />
+        <CalendarHeader />
+        <Calendar onChange={onChange} value={date} />
+        <Button />
+        <MuiCheckbox />
         
     </>
   )
