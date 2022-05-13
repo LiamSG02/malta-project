@@ -6,11 +6,12 @@ import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormHelperText from '@mui/material/FormHelperText';
 import Checkbox from '@mui/material/Checkbox';
+import { CenturyView } from 'react-calendar';
 
 export const MuiCheckbox = () => {
     return (
         <section>
-        <FormControl component="fieldset">
+        <FormControl component="fieldset" style={{position: 'relative', verticalAlign: 'middle'}}>
           <FormLabel component="legend">Activities</FormLabel>
           <FormGroup aria-label="position" row>
             <FormControlLabel
@@ -18,6 +19,7 @@ export const MuiCheckbox = () => {
               control={<Checkbox />}
               label="Beach"
               labelPlacement="end"
+              
             />
             <FormControlLabel
               value="end"
@@ -34,7 +36,7 @@ export const MuiCheckbox = () => {
             <FormControlLabel
               value="end"
               control={<Checkbox />}
-              label="Cruise Tour"
+              label="Cruise"
               labelPlacement="end"
             />
           </FormGroup>
@@ -86,7 +88,7 @@ export const MuiCheckbox = () => {
             <FormControlLabel
               value="end"
               control={<Checkbox />}
-              label="Fun Events"
+              label="Events"
               labelPlacement="end"
             />
           </FormGroup>

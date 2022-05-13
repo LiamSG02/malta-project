@@ -7,6 +7,7 @@ import 'react-calendar/dist/Calendar.css';
 import './components/calendar2.css'
 import { MuiCheckbox } from './components/MuiCheckbox';
 import CalendarHeader from './components/CalendarHeader';
+import ActivityHeader from './components/ActivityHeader';
 
 export const App = () => {
   const [date, setDate] = useState(new Date());
@@ -22,7 +23,10 @@ export const App = () => {
         <CalendarHeader />
         <Calendar onChange={onChange} value={date} />
         <Button />
+        <ActivityHeader />
         <MuiCheckbox />
+        <Button />
+        
         
     </>
   )

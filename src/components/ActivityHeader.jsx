@@ -1,15 +1,15 @@
 import React from "react";
 import './header.css'
 
-export const CalendarHeader = () => {
+export const ActivityHeader = () => {
     return (
         <section class="block container block-domain">
             <header class="block__header">
-                <h2>Enter the date</h2>
-                <p>to see what is available that day!</p>
+                <h2>Mark the Activities</h2>
+                <p>that you would like to do that day!</p>
             </header>
         </section>    
     )
 }
 
-export default CalendarHeader
+export default ActivityHeader

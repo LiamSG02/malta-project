@@ -54,3 +54,7 @@
     background-color: var(--color-button);
     color: #fff;
   }
+
+  .bg {
+    background-image: url(../images/header.jpeg);
+  }
