@@ -2,9 +2,10 @@ import React from "react";
 import './header.css'
 import {BsSearch} from 'react-icons/bs';
 
+
 export const Header = () => {
     return (
-        <section class="block container block-domain">
+        <section class="block container block-domain bg"> 
             <header class="block__header">
                 <h2>Enter your destination</h2>
                 <p>Find exciting activities to explore!</p>
